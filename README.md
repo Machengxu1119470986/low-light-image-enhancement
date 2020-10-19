@@ -6,8 +6,11 @@ The idea of attention is added to the reflection part, so that when processing t
 2. Tensorflow 1.4.0
 3. numpy, PIL
 ## Test ##
-First download the pre-trained checkpoints from BaiduNetdisk https://pan.baidu.com/s/1d8gIj-qb6zx23KVDagQcJg ，and The extraction code is 1234,and just run
+First download the pre-trained checkpoints from BaiduNetdisk: https://pan.baidu.com/s/1d8gIj-qb6zx23KVDagQcJg ，and The extraction code is 1234,and just run
 evaluate_LOLdataset.py
+
+We test some of the images on LOL dataset and share the test results on BaiduNetdisk:https://pan.baidu.com/s/1b47PEQpLURwBeYM5QwYWfQ(low light images),
+https://pan.baidu.com/s/1_9Gvat7Rhtna6Ov9T3XPhA(enhanced images),The extraction code is 1234.
 ## Train ##
 We train in LOLdataset,which can be found on the Internet.Save training pairs of LOL dataset under './LOLdataset/our485/' and save evaluating pairs under './LOLdataset/eval15/'. For training, just run
 python decomposition_net_train.py
